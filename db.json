@@ -1,0 +1,28 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "name": "Asim",
+        "course": "Full Stack",
+        "status": true
+      },
+      {
+        "id": 2,
+        "name": "tshirt",
+        "course": "full ",
+        "status": "false"
+      },
+      {
+        "name": "vivek",
+        "course": "frontend",
+        "status": "true",
+        "id": 3
+      },
+      {
+        "name": "shivam",
+        "course": "Manual Testing",
+        "status": "true",
+        "id": 4
+      }
+    ]
+  }
