@@ -6,7 +6,10 @@ const middleWare=jsonServer.defaults();
 
 const port=process.env.PORT || 8080;
 
+server.use(cors())
 server.use(router);
 server.use(middleWare)
 
-server.listen(port);
+server.listen(port,()=>{
+    console.log(`server is running at ${port}`)
+});
